@@ -45,8 +45,8 @@ const MainNavbar = (props) => {
                         <Nav.Link><Link to="/recordings" style={style}>Recordings</Link></Nav.Link>
                         <Nav.Link><Link to="/about" style={style}>About</Link></Nav.Link>
                         <Nav.Link><Link to="/schedule" style={style}>Schedule</Link></Nav.Link>
-                        <Nav.Link><Link to="/members" style={style}>Current DJs</Link></Nav.Link>
-                        <Nav.Link><Link to="/volunteer" style={style}>Get Involved!</Link></Nav.Link>
+                        {/* <Nav.Link><Link to="/members" style={style}>Current DJs</Link></Nav.Link> */}
+                        <Nav.Link><Link to="/volunteer" style={style}>Volunteering</Link></Nav.Link>
                         <Nav.Link><Link to="/contact" style={style}>Staff and Contact</Link></Nav.Link>
                         <Nav.Link style={style} href="https://twitter.com/RainyDawgRadio" target="_blank"><img src='./images/icon-twitter.png' style={iconStyle}/></Nav.Link>
                         <Nav.Link style={style} href="https://www.facebook.com/RainyDawgRadio/" target="_blank"><img src='./images/icon-facebook.png' style={iconStyle}/></Nav.Link>

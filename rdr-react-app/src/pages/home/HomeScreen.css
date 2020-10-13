@@ -28,13 +28,13 @@ p.tag {
 }
 
 .header-img {
-    margin-top: 50px;
-    background-image: url("./home-img/desktop-welcome.png");
+    margin-top: 60px;
+    background-image: url("./home-img/rdrupdate.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 300px;
-    box-shadow: inset 0px 0px 40px 40px #090909;
+    box-shadow: inset 8px 0px 40px 8px #090909;
 }
 
 @media screen and (min-width: 900px) {
@@ -108,10 +108,11 @@ p.tag {
 .news-events li {
     color: black;
     background-color: #FFF04D;
-    font-size: small;
+    font-size: medium;
+    font-family: Gaegu, sans-serif;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .news-events {
         position: absolute;
         top: 20%;

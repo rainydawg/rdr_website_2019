@@ -5,7 +5,7 @@ class AboutScreen extends React.Component {
 	render() {
 		return(
 			<div className="about-pg">
-                <img src='./images/staff-all.jpg' className='hideOnMobile'/>
+                {/* <img src='./images/staff-all.jpg' className='hideOnMobile'/> */}
                 <div className="offsetContentRectStyle">
                     <h1>What is Rainy Dawg Radio?</h1>
                     <h2>A student-powered radio station at the University of Washington</h2>
