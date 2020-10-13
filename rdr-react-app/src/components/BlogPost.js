@@ -26,15 +26,16 @@ function BlogPost(props) {
   const toggle = () => setModal(!modal);
   // Styles  
   let boxStyle = {
-    width: "300px",
-    height: "180px",
-    margin: "10px",
+    width: "310px",
+    height: "auto",
+    margin: "3px",
+    padding: "8px",
     border: "1px solid white",
     zIndex: 2
   };
 
   let titleStyle = {
-    width: "250px",
+    width: "240px",
     marginLeft: "auto",
     marginRight: "auto",
     position: "relative",

@@ -43,10 +43,10 @@ function App() {
         <div>
           {/* Put content for each page between route tags below. */}
           <Switch>
-            <Route exact path="/">
+            {<Route exact path="/bdayfeste">
               <BirthdayFestScreen />
-            </Route>
-            <Route exact path="/home">
+            </Route> }
+            <Route exact path="/">
               <HomeScreen />
             </Route>
             <Route path="/members">

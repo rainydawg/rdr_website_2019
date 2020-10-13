@@ -39,8 +39,8 @@ const MainNavbar = (props) => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                        <Nav.Link><Link to="/" style={style}>BDAY FEST</Link></Nav.Link>
-                        <Nav.Link><Link to="/home" style={style}>Home</Link></Nav.Link>
+                        {/* <Nav.Link><Link to="/" style={style}>Home</Link></Nav.Link> */}
+                        <Nav.Link><Link to="/bdayfeste" style={style}>BDAY FEST</Link></Nav.Link>
                         <Nav.Link><Link to="/stream" style={style}>Stream</Link></Nav.Link>
                         <Nav.Link><Link to="/recordings" style={style}>Recordings</Link></Nav.Link>
                         <Nav.Link><Link to="/about" style={style}>About</Link></Nav.Link>

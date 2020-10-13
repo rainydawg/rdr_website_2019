@@ -43,6 +43,7 @@ class CreateBlogPosts extends React.Component {
       display: "flex",
       flexWrap: "wrap",
       width: "auto",
+      // height: "150px",
       justifyContent: "space-evenly"
     }
 
