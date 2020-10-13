@@ -86,24 +86,24 @@ class ContactScreen extends React.Component {
                     </Card>
                     <Card style={cardStyle}>
                         <CardBody>
-                            <CardTitle>Devon Pimentelli</CardTitle>
+                            <CardTitle>Bella Lufschanowski</CardTitle>
                             <CardSubtitle>Promotions Coordinator</CardSubtitle>
                         </CardBody>
-                        <img width="100%" src="./images/staff-pc.jpg" alt="Card image cap" />
+                        <img width="100%" src="./images/icon-penguin.PNG" alt="Card image cap" />
                         <CardBody>
-                            <CardText>Our fearless leader. Can probably handle any issue you throw at her.</CardText>
+                            <CardText>information</CardText>
                             <CardText>Contact for social media, marketing, and promotion inquiries.</CardText>
                             <CardText>Email: asuwrdpc@uw.edu</CardText>
                         </CardBody>
                     </Card>
                     <Card style={cardStyle}>
                         <CardBody>
-                            <CardTitle>Josh Maza</CardTitle>
+                            <CardTitle>Cooper</CardTitle>
                             <CardSubtitle>Technology Manager</CardSubtitle>
                         </CardBody>
-                        <img width="100%" src="./images/staff-tm.jpg" alt="Card image cap" />
+                        <img width="100%" src="./images/icon-squirrel.PNG" alt="Card image cap" />
                         <CardBody>
-                            <CardText>*beep boop*</CardText>
+                            <CardText>*fuzz*</CardText>
                             <CardText>Contact for studio, website, or general technology inquiries.</CardText>
                             <CardText>Email: asuwrdtm@uw.edu</CardText>
                         </CardBody>
