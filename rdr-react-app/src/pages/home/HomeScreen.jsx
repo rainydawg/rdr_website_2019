@@ -31,7 +31,7 @@ class HomeScreen extends React.Component {
 						*/}
 					</ListGroup>
 				</div>
-				<p className="tag">(scroll to view more)</p>
+				{/* <p className="tag">(scroll to view more)</p> */}
 				<div className="twitch-poster">
 				
 				<div>
