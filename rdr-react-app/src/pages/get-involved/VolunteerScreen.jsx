@@ -40,9 +40,9 @@ class VolunteerScreen extends React.Component {
                 <div className="offsetContentRectStyle">
                     <h1 style={h1Style}>Join Our Community!</h1>
 
-                    <p style={pStyle}>Volunteer by filling out our <a href="https://forms.gle/AxL4eLcbpyGX7JAe9" target="_blank">application</a>.</p>
+                    <p style={pStyle}>Volunteer by filling out our <a href="https://docs.google.com/forms/d/e/1FAIpQLScvmJ5eNf0V_EhbCQv_sA4iyi-QR0cz5V_CMJ3aATpsZHjl1w/viewform" target="_blank">DJ application</a>.</p>
 
-                    <h2>DJs, Bloggers, and More!</h2>
+                    <h2>DJs, Blawgers, and More!</h2>
                     <p style={pStyle}>At the beginning of every quarter, we look for more volunteers like you.
                     We're interested in students with passion and diversity in music and want to find
                     other like minded individuals.
@@ -54,8 +54,8 @@ class VolunteerScreen extends React.Component {
                     the fall, however our operations are being reformatted for safety and security during the times, and volunteer DJs will be temporarily on hold.
                     </p>
 
-                    <h3>Volunteer Blogger</h3>
-                    <p style={pStyle}>Bloggers have the opportunity to practice journalism and write about 
+                    <h3>Volunteer Blawgger</h3>
+                    <p style={pStyle}>Blawgers have the opportunity to practice journalism and write about 
                     local music in Seattle, such as attending events and listening to music. Rainy Dawg Radio
                     ocasionally supplies bloggers with free tickets to local shows to fuel blogging content
                     and promote local acts. View the blog to get an idea, and break our mold.</p>

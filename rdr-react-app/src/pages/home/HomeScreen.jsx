@@ -15,8 +15,10 @@ class HomeScreen extends React.Component {
 				<div className="news-events">
 					<h1>Announcements</h1>
 					<ListGroup flush>
-						<ListGroupItem> <a href="https://forms.gle/AxL4eLcbpyGX7JAe9" target="_blank"><h1> 
-							(10/13/2020) Rainy Dawg Blawg Volunteer Application Opens </h1></a> </ListGroupItem>
+						{/* <ListGroupItem> (11/4/2020) DJ volunteer application opens</ListGroupItem> */}
+						<ListGroupItem> <a href="https://docs.google.com/forms/d/e/1FAIpQLScvmJ5eNf0V_EhbCQv_sA4iyi-QR0cz5V_CMJ3aATpsZHjl1w/viewform" target="_blank"><h1> 
+						(11/4/2020) DJ Volunteer Application Opens </h1></a> </ListGroupItem>
+							<ListGroupItem>(10/13/2020) Rainy Dawg Blawg Volunteer Application Opened</ListGroupItem>
 						<ListGroupItem> (6/4/2020) BIRTHDAY FEST 2020 (Tanukichan, Dirty Projectors, Yves Tumor)</ListGroupItem>
 						{/*<ListGroupItem>(5/29/2020) Episode 8 RDR Virtual Show (Archival Image, Midwife)</ListGroupItem>
 						<ListGroupItem>(5/22/2020) Episode 7 RDR Virtual Show (Your Heart Breaks, Diners)</ListGroupItem>
