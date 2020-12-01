@@ -16,13 +16,13 @@ class FooterAudioPlayer extends React.Component {
     stream = new Audio('http://166.62.119.4:8000/stream');
 
     NavbarStyle = {
-        backgroundColor: "#333333",
+        backgroundColor: "#242424",
         color: "white"
     };
 
     // Will create a repeating call that refreshes the currently playing song every interval.
     componentDidMount() {
-        let waitTime = 10000; // the time in ms to wait before getting the most recent song again.
+        let waitTime = 8000; // the time in ms to wait before getting the most recent song again.
 
         // Calls it initially, then sets an interval for it.
 
@@ -71,7 +71,15 @@ class FooterAudioPlayer extends React.Component {
         return(
           <div className="fixed-bottom">  
             <Navbar style={this.NavbarStyle}>
-                {/* <p style={pStyle}><a href="https://youtu.be/kWqIzg35Uq0" style={{color: "yellow"}} target="_blank">CLICK HERE</a> to tune into Rainy Dawg Radio's 19th Birthday Show @6-730PM PST!</p> */}
+                {<div className="fixed-bottom">  
+                <Navbar style={this.NavbarStyle}>
+                    <i className="fa fa-play-circle" style={{fontSize: '30px'}} onClick={this.onPlay}></i>
+                    <p style={pStyle}>{this.state.isLoading ? "Now Playing" : "Click Play To Stream"}</p>
+                    {/* <p style={pStyle}>{this.state.isLoading ? this.state.data.artist + "-" + this.state.data.song : ""}</p> */}
+                    <p style={pStyle}>{this.state.isLoading ? "(" + this.tConvert(this.state.data.start.substring(11, 16)) + ")" : ""}</p>
+                </Navbar>
+            </div>
+                /* <p style={pStyle}><a href="https://youtu.be/kWqIzg35Uq0" style={{color: "yellow"}} target="_blank">CLICK HERE</a> to tune into Rainy Dawg Radio's 19th Birthday Show @6-730PM PST!</p> */}
                 {/*<p style={pStyle}>{this.state.isLoading ? "Now Playing" : "Tune into Rainy Dawg Radio's 19th Birthday Show @6-730PM PST!"}</p>*/}
             </Navbar>
           </div>
