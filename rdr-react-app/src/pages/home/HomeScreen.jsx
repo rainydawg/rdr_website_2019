@@ -11,10 +11,11 @@ class HomeScreen extends React.Component {
 	render() {
 		return(
 			<div className="home-pg">
-				<div className="header-img">&nbsp;</div>
+				<div className="header-img">&nbsp;
+				
+						</div>
 				<div className="news-events">
-				<a href="http://rainydawg.org:8000/stream" target="_blank"><h1> 
-						CLICK HERE IF YOU CANNOT PLAY THE STREAM </h1></a>
+				
 					<h1>Announcements</h1>
 					
 					<ListGroup flush>
@@ -44,6 +45,8 @@ class HomeScreen extends React.Component {
 					<div className="blog-container">
 					<div>
 						<div>
+						<a href="http://rainydawg.org:8000/stream" target="_blank"><h1> 
+						Alternate Stream Link </h1></a>
 							<h1>Most Recent Blog Posts</h1>
 							<CreateBlogPosts />
 						</div>

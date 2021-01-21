@@ -75,10 +75,12 @@ class FooterAudioPlayer extends React.Component {
                 <Navbar style={this.NavbarStyle}>
                     <i className="fa fa-play-circle" style={{fontSize: '30px'}} onClick={this.onPlay}></i>
                     <p style={pStyle}>{this.state.isLoading ? "Now Playing" : "Click Play To Stream"}</p>
+                    
                     {/* <p style={pStyle}>{this.state.isLoading ? this.state.data.artist + "-" + this.state.data.song : ""}</p> */}
                     {/* <p style={pStyle}>{this.state.isLoading ? "(" + this.tConvert(this.state.data.start.substring(11, 16)) + ")" : ""}</p> */}
                 </Navbar>
             </div>
+            
                 /* <p style={pStyle}><a href="https://youtu.be/kWqIzg35Uq0" style={{color: "yellow"}} target="_blank">CLICK HERE</a> to tune into Rainy Dawg Radio's 19th Birthday Show @6-730PM PST!</p> */}
                 {/*<p style={pStyle}>{this.state.isLoading ? "Now Playing" : "Tune into Rainy Dawg Radio's 19th Birthday Show @6-730PM PST!"}</p>*/}
             </Navbar>
