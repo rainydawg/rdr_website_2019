@@ -67,6 +67,8 @@ class StreamScreen extends React.Component {
                         <h2>Internet broadcasting since 2001</h2>
                         <img style={imageStyle} src='./images/icon-magnet.PNG'/>
                         <p style={pStyle}>You can stream our music by clicking the play button at the bottom left of the screen!</p>
+                        <a href="http://rainydawg.org:8000/stream" target="_blank"><h1> 
+						ALTERNATE STREAM LINK </h1></a>
                         <p style={pStyle}>Find Rainy Dawg Radio on the first floor of the HUB in room 131N or by 
                         calling (206) 685-0890 !</p>
                         <p style={pStyle}> If you have any questions about the studio and its equipment, or there are problems with the online stream,

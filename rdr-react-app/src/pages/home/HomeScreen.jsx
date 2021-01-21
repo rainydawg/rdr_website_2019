@@ -13,9 +13,13 @@ class HomeScreen extends React.Component {
 			<div className="home-pg">
 				<div className="header-img">&nbsp;</div>
 				<div className="news-events">
+				<a href="http://rainydawg.org:8000/stream" target="_blank"><h1> 
+						CLICK HERE IF YOU CANNOT PLAY THE STREAM </h1></a>
 					<h1>Announcements</h1>
+					
 					<ListGroup flush>
 						{/* <ListGroupItem> (11/4/2020) DJ volunteer application opens</ListGroupItem> */}
+						<ListGroupItem>(1/4/2021) Winter Schedule Begins</ListGroupItem>
 						<ListGroupItem> <a href="https://docs.google.com/forms/d/e/1FAIpQLScvmJ5eNf0V_EhbCQv_sA4iyi-QR0cz5V_CMJ3aATpsZHjl1w/viewform" target="_blank"><h1> 
 						(11/4/2020) DJ Volunteer Application Opens </h1></a> </ListGroupItem>
 							<ListGroupItem>(10/13/2020) Rainy Dawg Blawg Volunteer Application Opened</ListGroupItem>
